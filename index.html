@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> EGG IN HELL </title>
-
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/domangchyeo.json");
+    </script>
   </head>
   <body style="background-color: black">
     <table style="margin-left: auto; margin-right: auto;margin-top:100px">
         <tr>
             <td>
-                <iframe src="https://i.simmer.io/@248817/help" style="width:740px;height:500px"></iframe>
+                <div id="gameContainer" style="width: 740px; height: 500px; margin: auto"></div>
             </td>
         </tr>
     </table>
